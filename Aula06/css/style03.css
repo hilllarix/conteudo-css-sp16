@@ -1,0 +1,22 @@
+body {
+    background-color: lightyellow;
+    font-family: monospace;
+    color: black;
+}
+
+.container {
+    background-color: aquamarine;
+    color: midnightblue;
+    border: 6px solid ghostwhite;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: lightcyan;
+    border: 4px solid lightyellow;
+    text-align: center;
+    align-content: center;
+}
